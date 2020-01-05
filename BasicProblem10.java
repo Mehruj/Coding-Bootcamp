@@ -2,7 +2,7 @@ package BasicProblems;
 
 public class BasicProblem10 {
 	 public boolean isPalindrome(int[] nums) {
-		 if(nums= null || nums.length<2) {
+		 if(nums==null || nums.length <2) {
 			 return true;
 		 }
 		 int end= nums.length -1;
